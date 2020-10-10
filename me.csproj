@@ -6,16 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="compilerconfig.json" />
-  </ItemGroup>
-
-  <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\app.css" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include=".github\workflows\ci.yml" />
-    <None Include="compilerconfig.json" />
   </ItemGroup>
 
   <ItemGroup>
