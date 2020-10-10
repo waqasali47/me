@@ -6,10 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include=".github\workflow\ci.yml" />
+    <None Include=".github\workflows\ci.yml" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.5.2" />
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="LibSassHost" Version="1.3.2" />
+    <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.279" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Build" Version="3.2.1" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.1" PrivateAssets="all" />
