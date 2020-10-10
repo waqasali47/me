@@ -6,11 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\app.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include=".github\workflows\ci.yml" />
+    <None Include="compilerconfig.json" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="bootstrap" Version="4.5.2" />
+    <PackageReference Include="BuildWebCompiler" Version="1.12.394" />
     <PackageReference Include="FontAwesome" Version="4.7.0" />
     <PackageReference Include="LibSassHost" Version="1.3.2" />
     <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.279" />
