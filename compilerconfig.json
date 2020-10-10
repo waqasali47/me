@@ -1,6 +1,13 @@
 ﻿[
   {
     "outputFile": "wwwroot/app.css",
-    "inputFile": "wwwroot/app.scss"
+    "inputFile": "wwwroot/app.scss",
+    "minify": {
+      "enabled": true
+    },
+    "includeInProject": true,
+    "options": {
+      "sourceMap": false
+    }
   }
-]
+] 
