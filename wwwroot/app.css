@@ -7761,3 +7761,6 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem; } }
+.talks-card{
+    border-bottom:1px solid #bd5d38;
+}
